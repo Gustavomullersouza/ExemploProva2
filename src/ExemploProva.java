@@ -22,11 +22,12 @@ public class ExemploProva {
             public void actionPerformed(ActionEvent e) {
                 Integer valorDois = Integer.valueOf(txtValor.getText());
                   Integer soma = 0;
-                if (operacao.equals("+")){
+                if (operacao.equals("+")) {
                     soma = valor + valorDois;
-                }
 
-                txtValor.setText(String.valueOf(soma));
+
+                    txtValor.setText(String.valueOf(soma));
+                }
             }
         });
     }
